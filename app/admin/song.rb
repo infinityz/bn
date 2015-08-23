@@ -1,4 +1,5 @@
 ActiveAdmin.register Song do
+  permit_params :title, :release_date, :price, :preview_url, :purchase_url
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
